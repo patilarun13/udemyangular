@@ -1,0 +1,8 @@
+<p>
+  <button class="btn btn-primary" [disabled]="!enableServerAddButton"
+  (click)="onServerAddClick()"> Add server</button>
+</p>
+
+<hr>
+
+<p [innerText]="serverAddStatus"></p>
